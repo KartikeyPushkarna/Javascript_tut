@@ -30,4 +30,10 @@ const output3 = users.filter((x)=> x.age<30).map((x) =>
     x.firstname);
 console.log(output3);
 
-
+const output4 = users.reduce(function(acc,curr){
+    if(curr.age<30){
+        acc.push(curr.firstname);
+    }
+    return acc;
+},[])
+console.log(output4);
