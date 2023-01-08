@@ -37,3 +37,10 @@ const output4 = users.reduce(function(acc,curr){
     return acc;
 },[])
 console.log(output4);
+
+//sort the object according to their ages--
+const output5 = users.sort(function(a,b){
+    return a.age - b.age;
+});
+
+console.log(output5);
