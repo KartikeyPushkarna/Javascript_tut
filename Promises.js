@@ -53,3 +53,4 @@ user.then(function(data){
 // 1.What is Promise?
 /* Promise object is a placeholder which will be filled later with the value or a container for the future value gave by the 
 async function."A promise is an object representing the eventual completion or failure of an asynchronous operation."
+States of Promises=>a.Pending ,b.fullfilled, c.Rejected.*/
