@@ -2,7 +2,7 @@
 
 // function a(){
 //     console.log(b);               //10
-//     c();            
+//     c();            s
 //     function c(){
 //         console.log(b);           //10
 //     }
